@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F285084F27EB9D8E00D79D7B /* framework.docc in Sources */ = {isa = PBXBuildFile; fileRef = F285084E27EB9D8E00D79D7B /* framework.docc */; };
-		F285085527EB9D8E00D79D7B /* framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F285084A27EB9D8E00D79D7B /* framework.framework */; };
+		F285085527EB9D8E00D79D7B /* SmemeFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F285084A27EB9D8E00D79D7B /* SmemeFramework.framework */; };
 		F285085A27EB9D8E00D79D7B /* frameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F285085927EB9D8E00D79D7B /* frameworkTests.swift */; };
 		F285085B27EB9D8E00D79D7B /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = F285084D27EB9D8E00D79D7B /* framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -24,7 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F285084A27EB9D8E00D79D7B /* framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F285084A27EB9D8E00D79D7B /* SmemeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmemeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F285084D27EB9D8E00D79D7B /* framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = framework.h; sourceTree = "<group>"; };
 		F285084E27EB9D8E00D79D7B /* framework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = framework.docc; sourceTree = "<group>"; };
 		F285085427EB9D8E00D79D7B /* frameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = frameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F285085527EB9D8E00D79D7B /* framework.framework in Frameworks */,
+				F285085527EB9D8E00D79D7B /* SmemeFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 		F285084B27EB9D8E00D79D7B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F285084A27EB9D8E00D79D7B /* framework.framework */,
+				F285084A27EB9D8E00D79D7B /* SmemeFramework.framework */,
 				F285085427EB9D8E00D79D7B /* frameworkTests.xctest */,
 			);
 			name = Products;
@@ -114,7 +114,7 @@
 			);
 			name = framework;
 			productName = framework;
-			productReference = F285084A27EB9D8E00D79D7B /* framework.framework */;
+			productReference = F285084A27EB9D8E00D79D7B /* SmemeFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F285085327EB9D8E00D79D7B /* frameworkTests */ = {
@@ -268,7 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -325,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -358,7 +358,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sparechange.framework.smeme;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = SmemeFramework;
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -388,7 +388,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sparechange.framework.smeme;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = SmemeFramework;
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
